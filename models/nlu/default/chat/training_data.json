@@ -1,0 +1,1621 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "xin chào"
+      },
+      {
+        "intent": "greet",
+        "text": "chào bạn"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "mình có vài câu hỏi"
+      },
+      {
+        "intent": "greet",
+        "text": "có ai giúp mình không"
+      },
+      {
+        "intent": "greet",
+        "text": "bạn ơi"
+      },
+      {
+        "intent": "greet",
+        "text": "anh ơi"
+      },
+      {
+        "intent": "greet",
+        "text": "chị ơi"
+      },
+      {
+        "intent": "greet",
+        "text": "cháu ơi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "chào"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "có ai ở đây không?"
+      },
+      {
+        "intent": "thank",
+        "text": "chuẩn"
+      },
+      {
+        "intent": "thank",
+        "text": "hay"
+      },
+      {
+        "intent": "thank",
+        "text": "siêu"
+      },
+      {
+        "intent": "thank",
+        "text": "tuyệt"
+      },
+      {
+        "intent": "thank",
+        "text": "cám ơn"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "ok"
+      },
+      {
+        "intent": "thank",
+        "text": "cảm ơn em"
+      },
+      {
+        "intent": "thank",
+        "text": "cảm ơn em nhiều nhé"
+      },
+      {
+        "intent": "thank",
+        "text": "cảm ơn"
+      },
+      {
+        "intent": "ask_name",
+        "text": "bạn tên gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "chị tên gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "anh tên gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên của bạn là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên của chị là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên của anh là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "cho mình hỏi tên nhé"
+      },
+      {
+        "intent": "ask_name",
+        "text": "mình muốn biết tên bạn"
+      },
+      {
+        "intent": "ask_name",
+        "text": "mình muốn tiện xưng hộ hơn, cho mình biết tên nhé"
+      },
+      {
+        "intent": "ask_name",
+        "text": "để tiện xưng hộ thì tên bạn là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "cho em xin tên của anh ạ"
+      },
+      {
+        "intent": "ask_name",
+        "text": "cho em xin tên của chị ạ"
+      },
+      {
+        "intent": "ask_name",
+        "text": "được biết tên bạn thì tốt nhỉ"
+      },
+      {
+        "intent": "ask_name",
+        "text": "vui lòng cho mình biết tên nhé"
+      },
+      {
+        "intent": "ask_name",
+        "text": "xin phép hỏi tên của bạn"
+      },
+      {
+        "intent": "ask_name",
+        "text": "vậy thì tên bạn là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên bạn trong tiếng việt là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "bạn có vui lòng cho mình biết tên được không"
+      },
+      {
+        "intent": "ask_name",
+        "text": "chúng ta nên biết tên nhau nhỉ?"
+      },
+      {
+        "intent": "ask_name",
+        "text": "em tên là gì thế"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên em là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên em"
+      },
+      {
+        "intent": "ask_name",
+        "text": "tên bạn"
+      },
+      {
+        "intent": "ask_name",
+        "text": "bạn tên là gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "bạn tên gì thế"
+      },
+      {
+        "intent": "ask_name",
+        "text": "em tên gì"
+      },
+      {
+        "intent": "cau1",
+        "text": "Điểm CTXH cập nhật khi nào và xem điểm ở đâu"
+      },
+      {
+        "intent": "cau1",
+        "text": "Làm thế nào để biết được điểm CTXH đã đủ chưa"
+      },
+      {
+        "intent": "cau1",
+        "text": "Lên phòng nào để biết đểm CTXH?"
+      },
+      {
+        "intent": "cau1",
+        "text": "Điểm CTXH xem ở đâu"
+      },
+      {
+        "intent": "cau1",
+        "text": "Xem điểm CTXH ở đâu"
+      },
+      {
+        "intent": "cau1",
+        "text": "Điểm CTXH khi nào cập nhật"
+      },
+      {
+        "intent": "cau1",
+        "text": "Sinh viên có thể xem điểm CTXH ở đâu?"
+      },
+      {
+        "intent": "cau2",
+        "text": "Đang là SV năm cuối nhiều SV còn thiếu điểm CTXH, nhà trường có cách nào giải quyết để SV đủ điều kiện ra trường không"
+      },
+      {
+        "intent": "cau2",
+        "text": "Làm thế nào để có đủ điểm CTXH"
+      },
+      {
+        "intent": "cau2",
+        "text": "Làm gì để đủ điểm CTXH"
+      },
+      {
+        "intent": "cau2",
+        "text": "Sinh viên năm cuối làm gì để đủ điểm CTXH"
+      },
+      {
+        "intent": "cau2",
+        "text": "Có hoạt động nào để sinh viên năm cuối có thể làm để đủ CTXH ra trường không"
+      },
+      {
+        "intent": "cau3",
+        "text": "Các phong trào và hoạt động của Khoa tham gia có được cộng điểm CTXH hay không"
+      },
+      {
+        "intent": "cau3",
+        "text": "Có được cộng điểm CTXH khi tham gia hoạt động của Khoa tổ chức không"
+      },
+      {
+        "intent": "cau3",
+        "text": "Tham gia hoạt động của Khoa có được cộng điểm CTXH không"
+      },
+      {
+        "intent": "cau3",
+        "text": "Các phong trào do khoa tổ chức khi sinh viên tham gia có được cộng vào điểmm  CTXH không"
+      },
+      {
+        "intent": "cau3",
+        "text": "Sinh viên đăng ký tham gia phong trài do Khoa tổ chức có được cộng điểm CTXH không"
+      },
+      {
+        "intent": "stop",
+        "text": "Dừng tại đây"
+      },
+      {
+        "intent": "stop",
+        "text": "Bye Bye"
+      },
+      {
+        "intent": "stop",
+        "text": "Bai em nhe"
+      },
+      {
+        "intent": "stop",
+        "text": "Goodbye and see u"
+      },
+      {
+        "intent": "stop",
+        "text": "Bye em"
+      },
+      {
+        "intent": "cau4",
+        "text": "Mất thẻ sinh viên"
+      },
+      {
+        "intent": "cau4",
+        "text": "Co the lam lai the sinh vien khong"
+      },
+      {
+        "intent": "cau4",
+        "text": "The sinh vien lam lai duoc khong"
+      },
+      {
+        "intent": "cau4",
+        "text": "Lam sao khi mat the"
+      },
+      {
+        "intent": "cau4",
+        "text": "Lam mat the sinh vie"
+      },
+      {
+        "intent": "cau4",
+        "text": "Lam lai the sinh vien"
+      },
+      {
+        "intent": "cau4",
+        "text": "The sinh vien bi mat"
+      },
+      {
+        "intent": "cau05",
+        "text": "Hoc ky he co tinh vao tich luy khong"
+      },
+      {
+        "intent": "cau05",
+        "text": "Tinh tich luy hoc ky he"
+      },
+      {
+        "intent": "cau05",
+        "text": "Hoc ky he co tich luy khong"
+      },
+      {
+        "intent": "cau05",
+        "text": "Cach tinh tich luy o he"
+      },
+      {
+        "intent": "cau05",
+        "text": "Tich luy diem hoc ky ba"
+      },
+      {
+        "intent": "cau05",
+        "text": "Hoc he co duoc tich luy diem khong"
+      },
+      {
+        "intent": "cau05",
+        "text": "Hoc ky he co tich luy diem khong"
+      },
+      {
+        "intent": "cau05",
+        "text": "Tich luy diem vao hoc ky he"
+      },
+      {
+        "intent": "cau06",
+        "text": "Giay xac nhan thuc tap o dau"
+      },
+      {
+        "intent": "cau06",
+        "text": "Phong ban nào cấp giấy xác nhận thực tập"
+      },
+      {
+        "intent": "cau06",
+        "text": "Giấy xác nhận thực tập lấy ở đâu"
+      },
+      {
+        "intent": "cau06",
+        "text": "Giay xac nhan thuc tap phong ban nao cap"
+      },
+      {
+        "intent": "cau06",
+        "text": "Lam sao co giay xac nhan thuc tap"
+      },
+      {
+        "intent": "cau06",
+        "text": "Giay xac nhan thuc tap o dau"
+      },
+      {
+        "intent": "cau07",
+        "text": "Muon lam khoa luan"
+      },
+      {
+        "intent": "cau07",
+        "text": "Sinh vien co nguyen cong lam khoa luan"
+      },
+      {
+        "intent": "cau07",
+        "text": "Muon lam khoa luan thi can nhung gi"
+      },
+      {
+        "intent": "cau07",
+        "text": "Sinh vien tham gia khoa luan tot nghiep"
+      },
+      {
+        "intent": "cau07",
+        "text": "Khoa luan tot nghiep can gi"
+      },
+      {
+        "intent": "cau07",
+        "text": "Lam sao du dieu kien lam khoa luan"
+      },
+      {
+        "intent": "cau07",
+        "text": "Dieu kien de lam khoa luan tot nghiep"
+      },
+      {
+        "intent": "cau8",
+        "text": "Sinh vien co duoc phep tu tm cong ty thuc tap khong"
+      },
+      {
+        "intent": "cau8",
+        "text": "Khoa co de xuat cong ty thuc tap cho sinh vien khong"
+      },
+      {
+        "intent": "cau8",
+        "text": "Cong ty thuc tap do khoa sap xep hay tu tim"
+      },
+      {
+        "intent": "cau8",
+        "text": "Sinh vien tu tim con ty thuc tap duoc khong"
+      },
+      {
+        "intent": "cau8",
+        "text": "Khoa co lien he dia diem thuc tap khong"
+      },
+      {
+        "intent": "cau8",
+        "text": "Sinh vien tu de xuat cong ty thuc tap duoc khong"
+      },
+      {
+        "intent": "cau9",
+        "text": "Hè có mở lớp hcs không"
+      },
+      {
+        "intent": "cau9",
+        "text": "Khi nào mở lớp hcs"
+      },
+      {
+        "intent": "cau9",
+        "text": "Co dang ky HCS trong hoc ky he duoc khong"
+      },
+      {
+        "intent": "cau9",
+        "text": "Lop hcs mo khi nao"
+      },
+      {
+        "intent": "cau9",
+        "text": "Hoc ky ba co mo lop hcs khong"
+      },
+      {
+        "intent": "cau9",
+        "text": "Lop hcs co mo vao hoc ky he khong"
+      },
+      {
+        "intent": "cau9",
+        "text": "Sinh vien dang ky lop hcs vao hoc ky he"
+      },
+      {
+        "intent": "cau10",
+        "text": "Tại sao trường không cho thi lại khi bị bệnh"
+      },
+      {
+        "intent": "cau10",
+        "text": "Khi có việc đột xuất có được thi lại không"
+      },
+      {
+        "intent": "cau10",
+        "text": "Có tổ chức thi lại"
+      },
+      {
+        "intent": "cau10",
+        "text": "Khi bi benh dot xuat co duoc thi lai khong"
+      },
+      {
+        "intent": "cau011",
+        "text": "Rot mon ky truoc co thi lai duoc khong"
+      },
+      {
+        "intent": "cau011",
+        "text": "Rot mon co thi lai trong ki tiep theo duoc khong"
+      },
+      {
+        "intent": "cau011",
+        "text": "Ky truoc rot mon ky sau thi lai"
+      },
+      {
+        "intent": "cau011",
+        "text": "Rot mon thi lai"
+      },
+      {
+        "intent": "cau011",
+        "text": "Ky nay rot mon ky sau thi lai"
+      },
+      {
+        "intent": "cau12",
+        "text": "Ky sinh hoat cong dan"
+      },
+      {
+        "intent": "cau12",
+        "text": "Phai tham gia bao nhieu ky sinh hoat"
+      },
+      {
+        "intent": "cau12",
+        "text": "Tham gia hai ky sinh hoat duoc khong"
+      },
+      {
+        "intent": "cau12",
+        "text": "Chi di hai ky sinh hoat cong dan duoc khong"
+      },
+      {
+        "intent": "cau13",
+        "text": "Hufi co day toeic khong"
+      },
+      {
+        "intent": "cau13",
+        "text": "Truong co day toeic khong"
+      },
+      {
+        "intent": "cau13",
+        "text": "Truong co mo lop toeic khong"
+      },
+      {
+        "intent": "cau13",
+        "text": "Hoc toeic o truong duoc khong"
+      },
+      {
+        "intent": "cau13",
+        "text": "Truong co day chung chi tieng anh nao khong"
+      },
+      {
+        "intent": "cau14",
+        "text": "Tieng Nhat duoc chap nhan thay tieng anh khong"
+      },
+      {
+        "intent": "cau14",
+        "text": "Tieu chuan dau ra la tieng anh hay tieng nhat"
+      },
+      {
+        "intent": "cau14",
+        "text": "Thay the tieng nhat cho tieng anh duoc khong"
+      },
+      {
+        "intent": "cau14",
+        "text": "Thay hoc tieng anh bang hoc tieng nhat duoc khong"
+      },
+      {
+        "intent": "cau14",
+        "text": "Thay the tieng anh va tieng nhat the nao"
+      },
+      {
+        "intent": "cau14",
+        "text": "Co the thay the ngoai ngu khong"
+      },
+      {
+        "intent": "cau14",
+        "text": "Chung chi ngoai ngu co tieng nhat khong"
+      },
+      {
+        "intent": "cau015",
+        "text": "Luc nao nop cac chung chi lien quan"
+      },
+      {
+        "intent": "cau015",
+        "text": "Can nop cac chung chi lien quan khi nao"
+      },
+      {
+        "intent": "cau015",
+        "text": "Nop chung chi de xet tot nghiep khi nao"
+      },
+      {
+        "intent": "cau015",
+        "text": "Thoi gian nao bo sung chung chi lien quan"
+      },
+      {
+        "intent": "cau015",
+        "text": "Thoi gian nop cac chung chi lien quan"
+      },
+      {
+        "intent": "cau015",
+        "text": "Khi nao nop tat ca cac chung chi theo quy dinh"
+      },
+      {
+        "intent": "cau015",
+        "text": "Nop cac chung chi lien quan khi nao"
+      },
+      {
+        "intent": "cau016",
+        "text": "Phuc khao diem thi"
+      },
+      {
+        "intent": "cau016",
+        "text": "Lam sao de phuc khao diem thi"
+      },
+      {
+        "intent": "cau016",
+        "text": "Muon phuc khao diem phai lam sao"
+      },
+      {
+        "intent": "cau016",
+        "text": "Phong nao phuc khao diem thi"
+      },
+      {
+        "intent": "cau016",
+        "text": "Sinh vien muon phuc khao diem thi"
+      },
+      {
+        "intent": "cau016",
+        "text": "Cach phuc khao diem"
+      },
+      {
+        "intent": "cau016",
+        "text": "Muon phuc khao diem"
+      },
+      {
+        "intent": "cau016",
+        "text": "Phuc khao"
+      },
+      {
+        "intent": "cau016",
+        "text": "Don phuc khao"
+      },
+      {
+        "intent": "cau016",
+        "text": "Lam phuc khao the nao"
+      },
+      {
+        "intent": "cau016",
+        "text": "Cach phuc khao"
+      },
+      {
+        "intent": "cau17",
+        "text": "Mot nam xet hoc vu bao nhieu lan"
+      },
+      {
+        "intent": "cau17",
+        "text": "Thoi gian nao xet hoc vu"
+      },
+      {
+        "intent": "cau17",
+        "text": "Truong co xet hoc vu cho sinh vien khong"
+      },
+      {
+        "intent": "cau17",
+        "text": "Khi nao thi xet hoc vu"
+      },
+      {
+        "intent": "cau17",
+        "text": "Xet hoc vu vao thoi gian nao"
+      },
+      {
+        "intent": "cau18",
+        "text": "Canh bao hoc vu la gi"
+      },
+      {
+        "intent": "cau18",
+        "text": "Vi sao sinh vien bi canh bao hoc vu"
+      },
+      {
+        "intent": "cau18",
+        "text": "Truong hop bi canh bao hoc vu"
+      },
+      {
+        "intent": "cau18",
+        "text": "The nao la canh bao hoc vu"
+      },
+      {
+        "intent": "cau18",
+        "text": "Tai sao canh bao hoc vu"
+      },
+      {
+        "intent": "cau19",
+        "text": "Giay tam hoan nghia vu"
+      },
+      {
+        "intent": "cau19",
+        "text": "Lam giay tam hoan nghia v quan su"
+      },
+      {
+        "intent": "cau19",
+        "text": "Giay nghia vu quan su"
+      },
+      {
+        "intent": "cau19",
+        "text": "Thu tuc hoan nghia vu quan su"
+      },
+      {
+        "intent": "cau19",
+        "text": "Thu tuc hoan nghia vu quan su cho sinh vien"
+      },
+      {
+        "intent": "cau19",
+        "text": "Sinh vien muon lam giay hoan nghia vu"
+      },
+      {
+        "intent": "cau19",
+        "text": "Xin giay hoan nghia vu quan su"
+      },
+      {
+        "intent": "cau19",
+        "text": "Lam sao co giay xac nhan de hoan nghia vu quan su"
+      },
+      {
+        "intent": "cau20",
+        "text": "Truong hop sinh vien bi thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Lam sao khi bi thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Bi thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Thu tuc buoc thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Sinh vien bi buoc thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Van de buoc thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Truong hop bi buoc tam dung hoc tap"
+      },
+      {
+        "intent": "cau20",
+        "text": "Sinh vien bi buoc tam dung hoc tai truong khi nao"
+      },
+      {
+        "intent": "cau20",
+        "text": "Khi nao thi bi buoc tam dung hoc tap"
+      },
+      {
+        "intent": "cau20",
+        "text": "Khi nao sinh vien bi buoc thoi hoc"
+      },
+      {
+        "intent": "cau20",
+        "text": "Bi buoc thoi hoc trong truong hop gi"
+      },
+      {
+        "intent": "cau21",
+        "text": "Khi thay doi thong tin ngoai tru bao cho ai"
+      },
+      {
+        "intent": "cau21",
+        "text": "Khai bao tam tru cho ai"
+      },
+      {
+        "intent": "cau21",
+        "text": "Gap ai de bao thay doi tam tru"
+      },
+      {
+        "intent": "cau21",
+        "text": "Co can thong bao cho bi thu khi chuyen tro khong"
+      },
+      {
+        "intent": "cau21",
+        "text": "Khi chuyen tro sinh vien thong bao cho ai"
+      },
+      {
+        "intent": "cau21",
+        "text": "Sinh vien chuyen tro co bao thong tin khong"
+      },
+      {
+        "intent": "cau21",
+        "text": "Chuyen tro co can khai thong tin ve truong khong"
+      },
+      {
+        "intent": "cau21",
+        "text": "Chuyen tro co bao thong tin cho lop truong khong"
+      },
+      {
+        "intent": "cau21",
+        "text": "Khai bao thong tin chuyen tro cho ai"
+      },
+      {
+        "intent": "cau22",
+        "text": "Khi nao xet hoc bong"
+      },
+      {
+        "intent": "cau22",
+        "text": "Khi nao cap hoc bong"
+      },
+      {
+        "intent": "cau22",
+        "text": "Cap hoc theo thoi gian nao"
+      },
+      {
+        "intent": "cau22",
+        "text": "Thoi gian xet hoc bong khuyen khich hoc tap"
+      },
+      {
+        "intent": "cau22",
+        "text": "Khi nao xet hoc bong khuyen khich"
+      },
+      {
+        "intent": "cau22",
+        "text": "Xet hoc bong khuyen khi vao thoi gian nao"
+      },
+      {
+        "intent": "cau22",
+        "text": "Hoc bong khuyen khich xet vao thoi diem nao"
+      },
+      {
+        "intent": "cau23",
+        "text": "Muon hoc cai thien diem sinh vien can lam gi"
+      },
+      {
+        "intent": "cau23",
+        "text": "Lam the nao de cai thien diem"
+      },
+      {
+        "intent": "cau23",
+        "text": "Sinh vien cai thien dem nhu the nao"
+      },
+      {
+        "intent": "cau23",
+        "text": "Co cach nao cai thien diem khong"
+      },
+      {
+        "intent": "cau23",
+        "text": "Cai thien diem"
+      },
+      {
+        "intent": "cau23",
+        "text": "Can phai lam gi de cai thien diem"
+      },
+      {
+        "intent": "cau23",
+        "text": "Cach cai thien diem la the nao"
+      },
+      {
+        "intent": "cau23",
+        "text": "Co the cai thien diem khong"
+      },
+      {
+        "intent": "cau23",
+        "text": "Lam gi de cai thiem diem da hoc"
+      },
+      {
+        "intent": "cau23",
+        "text": "Co the hoc lai de cai tien diem thi khong"
+      },
+      {
+        "intent": "cau23",
+        "text": "Diem thi co cai thien duoc khong"
+      },
+      {
+        "intent": "cau24",
+        "text": "Rut hoc phan"
+      },
+      {
+        "intent": "cau24",
+        "text": "Co the rut hoc phan khong"
+      },
+      {
+        "intent": "cau24",
+        "text": "Lam the nao de rut bot hoc phan"
+      },
+      {
+        "intent": "cau24",
+        "text": "Cach rut bot hoc phan"
+      },
+      {
+        "intent": "cau24",
+        "text": "Muon rut bot hoc phan can lam gi"
+      },
+      {
+        "intent": "cau24",
+        "text": "Sinh vien muon ru hoc phan da dang ky"
+      },
+      {
+        "intent": "cau24",
+        "text": "Lam sao co the rut bot hoc phan"
+      },
+      {
+        "intent": "cau24",
+        "text": "Rut hoc phan o dau"
+      },
+      {
+        "intent": "cau25",
+        "text": "Sinh vien can lam gi de dang ky dung hoc phan"
+      },
+      {
+        "intent": "cau25",
+        "text": "Muon dang ky dung hoc phan thi can gi"
+      },
+      {
+        "intent": "cau25",
+        "text": "Dang ky dung hoc phan phai biet thong tin gi"
+      },
+      {
+        "intent": "cau25",
+        "text": "Dang ky hoc phan can biet nhung gi"
+      },
+      {
+        "intent": "cau25",
+        "text": "Lam sao de dang ky dung hoc phan"
+      },
+      {
+        "intent": "cau25",
+        "text": "Can biet thong tin nao de dang ky dung hoc phan"
+      },
+      {
+        "intent": "cau25",
+        "text": "Nhung thong tin de dang ky hoc phan"
+      },
+      {
+        "intent": "cau26",
+        "text": "Thac mac hoc phi"
+      },
+      {
+        "intent": "cau26",
+        "text": "Khieu nai hoc phi"
+      },
+      {
+        "intent": "cau26",
+        "text": "Sinh vien muon khieu nai hoc phi"
+      },
+      {
+        "intent": "cau26",
+        "text": "Neu nhu co thav mac hoc phi phai lam sao"
+      },
+      {
+        "intent": "cau26",
+        "text": "Phong ban giai quyet thac mac hoc phi"
+      },
+      {
+        "intent": "cau26",
+        "text": "Quy trinh khieu nai hoc phi"
+      },
+      {
+        "intent": "cau26",
+        "text": "Lien he ai de khieu nai hoc phi"
+      },
+      {
+        "intent": "cau26",
+        "text": "Muon hoi dap thac mac hoc phi"
+      },
+      {
+        "intent": "cau27",
+        "text": "Thong tin ve KTX"
+      },
+      {
+        "intent": "cau27",
+        "text": "Dia chi KTX o dau"
+      },
+      {
+        "intent": "cau27",
+        "text": "Cach thuc lien lac voi KTX"
+      },
+      {
+        "intent": "cau27",
+        "text": "Tim nha tro nhu the nao"
+      },
+      {
+        "intent": "cau27",
+        "text": "Ho tro tim nha tro nhu the nào"
+      },
+      {
+        "intent": "cau27",
+        "text": "To chuc nao ho tro tim nha tro"
+      },
+      {
+        "intent": "cau27",
+        "text": "Truong co giúp sinh vien tim nha tro khong"
+      },
+      {
+        "intent": "cau27",
+        "text": "Truong co KTX nao khong"
+      },
+      {
+        "intent": "cau27",
+        "text": "Sinh vien muon biet ve KTX"
+      },
+      {
+        "intent": "cau27",
+        "text": "Thong tin KTX HUFI"
+      },
+      {
+        "intent": "cau27",
+        "text": "KTX o duong nao"
+      },
+      {
+        "intent": "cau27",
+        "text": "KTX co gan truong khong"
+      },
+      {
+        "intent": "cau28",
+        "text": "Danh sach cac CLB"
+      },
+      {
+        "intent": "cau28",
+        "text": "Truong co CLB nao khong"
+      },
+      {
+        "intent": "cau28",
+        "text": "Co bao nhieu CLB trong truong"
+      },
+      {
+        "intent": "cau28",
+        "text": "Lien he voi CLB nhu the nao"
+      },
+      {
+        "intent": "cau28",
+        "text": "Cac trang web cua CLB la gi"
+      },
+      {
+        "intent": "cau28",
+        "text": "Truong co nhung CLN nao"
+      },
+      {
+        "intent": "cau28",
+        "text": "Tat ca cac CLB cua truong"
+      },
+      {
+        "intent": "cau28",
+        "text": "Hufi co CLB khong"
+      },
+      {
+        "intent": "cau28",
+        "text": "Cach lien he CLB cua truong"
+      },
+      {
+        "intent": "cau28",
+        "text": "Thông tin trang web cac CLB"
+      },
+      {
+        "intent": "cau29",
+        "text": "Sai thong tin sinh vien can lam gi"
+      },
+      {
+        "intent": "cau29",
+        "text": "Chinh sua thông tin sinh vien"
+      },
+      {
+        "intent": "cau29",
+        "text": "Cap nhat thong tin sinh vien o dau"
+      },
+      {
+        "intent": "cau29",
+        "text": "Khai bao thong tin sinh vien o dau"
+      },
+      {
+        "intent": "cau29",
+        "text": "Khai bao thong tin sinh vien the nao"
+      },
+      {
+        "intent": "cau29",
+        "text": "Lam gi de bo sung thong tin sinh vien"
+      },
+      {
+        "intent": "cau29",
+        "text": "Khai bao thong tin ca nhan vao trang nao"
+      },
+      {
+        "intent": "cau29",
+        "text": "Sinh vien can khai bao thong tin the nào"
+      },
+      {
+        "intent": "cau29",
+        "text": "Sinh vien cap nhat thong tin trên trang web nao"
+      },
+      {
+        "intent": "cau30",
+        "text": "Dang ky phan loai Anh Van dau vao"
+      },
+      {
+        "intent": "cau30",
+        "text": "Xep lop Anh Van dau vao nhu the nao"
+      },
+      {
+        "intent": "cau30",
+        "text": "Anh Van dau vao la gi"
+      },
+      {
+        "intent": "cau30",
+        "text": "Co bat buoc phai hoc Anh Van dau vao khong"
+      },
+      {
+        "intent": "cau30",
+        "text": "Thac mac ve Anh Van dau vao"
+      },
+      {
+        "intent": "cau30",
+        "text": "Anh Van dau vao co can thi khong"
+      },
+      {
+        "intent": "cau30",
+        "text": "Thong tin ve Anh Van dau vao"
+      },
+      {
+        "intent": "cau30",
+        "text": "Can duoc tu van ve viec hoc Anh Van dau vao"
+      },
+      {
+        "intent": "cau31",
+        "text": "Dang nhap tai khoan ca nhan bi loi"
+      },
+      {
+        "intent": "cau31",
+        "text": "Xem thoi khoa bieu tren cong thong tin"
+      },
+      {
+        "intent": "cau31",
+        "text": "Khong xem duoc thoi khoa bieu"
+      },
+      {
+        "intent": "cau31",
+        "text": "Lam gi khi khong biet lich hoc"
+      },
+      {
+        "intent": "cau31",
+        "text": "Phong nao ho tro khi bi mat lich hoc"
+      },
+      {
+        "intent": "cau31",
+        "text": "Thoi khoa bieu khong load duoc"
+      },
+      {
+        "intent": "cau31",
+        "text": "Sinh vien khong vao xem thoi khoa bieu duoc"
+      },
+      {
+        "intent": "cau31",
+        "text": "Cong thong tin sinh vien khong hien thi thoi khoa bieu"
+      },
+      {
+        "intent": "cau31",
+        "text": "Neu mat lich hoc thi lam sao"
+      },
+      {
+        "intent": "cau31",
+        "text": "Lam sao khi khong thay lich hoc"
+      },
+      {
+        "intent": "cau31",
+        "text": "Xem thoi khoa bieu khong duoc"
+      },
+      {
+        "intent": "cau31",
+        "text": "Thoi khoa bieu khong hien thi"
+      },
+      {
+        "intent": "cau32",
+        "text": "Sinh vien tham gia BHYT duoc quyen loi gi"
+      },
+      {
+        "intent": "cau32",
+        "text": "Quyen loi khi tham gia BHYT"
+      },
+      {
+        "intent": "cau32",
+        "text": "Tham gia BHYT co loi gi"
+      },
+      {
+        "intent": "cau32",
+        "text": "Tham gia BHYT duoc gi khong"
+      },
+      {
+        "intent": "cau32",
+        "text": "Loi ich khi co BHYT"
+      },
+      {
+        "intent": "cau32",
+        "text": "Mua BHYT duoc gi"
+      },
+      {
+        "intent": "cau32",
+        "text": "Co BHYT co loi gi khong"
+      },
+      {
+        "intent": "cau32",
+        "text": "Quyen loi khi mua BHYT"
+      },
+      {
+        "intent": "cau32",
+        "text": "BHYT co loi ich cho sinh vien khong"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian bieu cac tiet hoc buoi sang"
+      },
+      {
+        "intent": "cau33",
+        "text": "Tiet 4 bat dau t may gio"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian giai lao nhu the nao"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian bieu cac tiet buoi chieu"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian bieu cac tiet hoc toi"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian bieu cac tiet hoc"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian bieu cua truong"
+      },
+      {
+        "intent": "cau33",
+        "text": "Hoc buoi sang bat dau may gio"
+      },
+      {
+        "intent": "cau33",
+        "text": "Tiet cuoi cung cua ngay la tiet may"
+      },
+      {
+        "intent": "cau33",
+        "text": "Mot ngay co bao nhieu tiet"
+      },
+      {
+        "intent": "cau33",
+        "text": "Thoi gian cac tiet hoc"
+      },
+      {
+        "intent": "cau33",
+        "text": "Cac tiet hoc bat dau tu may gio"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong CTCT - HSSV giai quyet van de gi"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong CTCT - HSSV co chuc nang gi"
+      },
+      {
+        "intent": "cau34",
+        "text": "Nhiem vu cua Phong CTCT - HSSV"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong CTCT - HSSV co nhung hoat dong nao"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong ban giai quyet thac mac ve tinh hinh hoc tap"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong ban nao tiep nhan thong tin ve hoat dong xa hoi"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong CTCT - HSSV co giup sinh vien giai dap thac mac khong"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong ban nao dam nhiem giai dap thac mac cho sinh vien"
+      },
+      {
+        "intent": "cau34",
+        "text": "Nhung hoat dong cua phong CTCT - HSSV"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong CTCT - HSSV lam gi"
+      },
+      {
+        "intent": "cau34",
+        "text": "Chuc nang cua phong CTCT - HSSV"
+      },
+      {
+        "intent": "cau34",
+        "text": "Den phong CTCT - HSSV de lam gi"
+      },
+      {
+        "intent": "cau34",
+        "text": "Phong CTCT giup gi cho sinh vien"
+      },
+      {
+        "intent": "cau35",
+        "text": "Trung tam Ngoai ngu sinh vien co the dang ki gi"
+      },
+      {
+        "intent": "cau35",
+        "text": "Dang ky thi tieng Anh o dau"
+      },
+      {
+        "intent": "cau35",
+        "text": "Trung tam ngoai ngu day ngoai ngu gi"
+      },
+      {
+        "intent": "cau35",
+        "text": "Cac hoat dong cua trung tam ngoai ngu"
+      },
+      {
+        "intent": "cau35",
+        "text": "Test trinh do tieng anh o dau"
+      },
+      {
+        "intent": "cau35",
+        "text": "Di dau de chuyen doi ngon ngu dau ra"
+      },
+      {
+        "intent": "cau35",
+        "text": "Trung tam ngoai ngu co gi"
+      },
+      {
+        "intent": "cau35",
+        "text": "Den trung tam ngoai ngu de lam gi"
+      },
+      {
+        "intent": "cau35",
+        "text": "Trung tam ngoai giup ich gi"
+      },
+      {
+        "intent": "cau35",
+        "text": "Chuc nang cua trung tam ngoai ngu"
+      },
+      {
+        "intent": "cau35",
+        "text": "Sinh vien co the di dau de test trinh do tieng anh"
+      },
+      {
+        "intent": "cau35",
+        "text": "Trung tam ngoai ngu Hufi"
+      },
+      {
+        "intent": "cau35",
+        "text": "Dang ky thi bang A tieng anh o dau"
+      },
+      {
+        "intent": "cau35",
+        "text": "Dang ky thi bang B tieng anh o dau"
+      },
+      {
+        "intent": "cau35",
+        "text": "Dang ky thi bang C tieng anh o dau"
+      },
+      {
+        "intent": "cau36",
+        "text": "So tin chi toi thieu"
+      },
+      {
+        "intent": "cau36",
+        "text": "Hoc bao nhieu tin chi"
+      },
+      {
+        "intent": "cau36",
+        "text": "So tin chi ra truong"
+      },
+      {
+        "intent": "cau36",
+        "text": "Quy dinh ve tin chi ra truong"
+      },
+      {
+        "intent": "cau36",
+        "text": "Tong so ti chi can de ra truong"
+      },
+      {
+        "intent": "cau36",
+        "text": "Ra truong can bao nhieu tin chi"
+      },
+      {
+        "intent": "cau36",
+        "text": "Sinh vien du bao nhieu tin chi moi duoc ra truong"
+      },
+      {
+        "intent": "cau36",
+        "text": "So tin chi can dat de ra truong"
+      },
+      {
+        "intent": "cau37",
+        "text": "Tin chi la gi"
+      },
+      {
+        "intent": "cau37",
+        "text": "So tiet toi da cua mot tinh chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "Tin chi co bao nhieu tiet"
+      },
+      {
+        "intent": "cau37",
+        "text": "So luong tiet 1 tin chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "Mot tin chi quy dinh bao nhieu tiet"
+      },
+      {
+        "intent": "cau37",
+        "text": "Co bao nhieu tiet ly thuyet trong mot tin chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "Co bao nhieu tiet thuc hanh trong mot tin chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "Mot tin chi thi co bao nhieu thuc hanh bao nhieu ly thuyet"
+      },
+      {
+        "intent": "cau37",
+        "text": "Hoc tin chi la hoc the nao"
+      },
+      {
+        "intent": "cau37",
+        "text": "Nhu the nao goi la mot tin chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "So tiet trong mot chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "Mot tin chi co bao nhieu tiet"
+      },
+      {
+        "intent": "cau37",
+        "text": "Mot tin chi co bao nhieu tiet ly thuyet bao nhieu tiet thuc hanh"
+      },
+      {
+        "intent": "cau37",
+        "text": "Quy dinh ve mot tin chi"
+      },
+      {
+        "intent": "cau37",
+        "text": "Tin chi"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Khai niem hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Hoc phan tuong duong la gi"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Noi dung ve hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "The nao la hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Nhu the nao goi la hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Hoc phan tuong duong it hon hoc phan cu"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Co duoc hoc hoc phan tuong duong khong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Hoc phan tuong duong quy dinh the nao"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Noi dung lien quan den hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Khi nao hoc hoc phan tuong duong"
+      },
+      {
+        "intent": "Cau38",
+        "text": "Hoc phan tuong duong ap ung khi nao"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the ap dung the nao"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the la nhu the nao"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the duoc dung lam gi"
+      },
+      {
+        "intent": "cau39",
+        "text": "Sinh vien co can hoc hoc phan thay the khong"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "The nao la hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the la gi"
+      },
+      {
+        "intent": "cau39",
+        "text": "Noi dung ve hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "Khai niem hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "Khi nao su dung hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "Truong hop nao hoc hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the ap dung trong truong hop nao"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the su dung lam gi"
+      },
+      {
+        "intent": "cau39",
+        "text": "Khi nao phai hoc hoc phan thay the"
+      },
+      {
+        "intent": "cau39",
+        "text": "Sinh vien hoc hoc phan thay the khi nao"
+      },
+      {
+        "intent": "cau39",
+        "text": "Hoc phan thay the co bat buoc khong"
+      },
+      {
+        "intent": "cau39",
+        "text": "Noi dung cua hoc phan thay the"
+      },
+      {
+        "intent": "cau40",
+        "text": "Cach tinh diem xep loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Xep loai nhu the nao"
+      },
+      {
+        "intent": "cau40",
+        "text": "Phan loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Cac danh hieu tot nghỉep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Xep hang tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Cach xep loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Quy dinh xep loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Phan loai xet tot nghiep nhu the nao"
+      },
+      {
+        "intent": "cau40",
+        "text": "Xep loai tot nghiep the nao"
+      },
+      {
+        "intent": "cau40",
+        "text": "Cach xep loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Hinh thuc xep loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Lam sao de xep loai tot nghiep"
+      },
+      {
+        "intent": "cau40",
+        "text": "Xep loai tot nghiep hang gi the nao"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,265 @@
+intents:
+# Ý đồ khách hàng
+ - greet
+ - thank
+ - ask_name
+ - cau1
+ - cau2
+ - cau3
+ - stop
+ - cau4
+ - cau05
+ - cau06
+ - cau07
+ - cau8
+ - cau9
+ - cau10
+ - cau011
+ - cau12
+ - cau13
+ - cau14
+ - cau015
+ - cau016
+ - cau17
+ - cau18
+ - cau19
+ - cau20
+ - cau21
+ - cau22
+ - cau23
+ - cau24
+ - cau25
+ - cau26
+ - cau27
+ - cau28
+ - cau29
+ - cau30
+ - cau31
+ - cau32
+ - cau33
+ - cau34
+ - cau35
+ - cau36
+ - cau37
+ - cau38
+ - cau39
+ - cau40
+templates:
+# Bot trả lời
+ utter_greet:
+  - text: "Chào mừng bạn!"
+ utter_thank:
+  - text: "Cảm ơn quý khách quá khen ah!"
+  - text: "Dạ không có gì, đó là trách nhiệm của em mà!"
+ utter_cau1:
+  - text: "Mỗi học kỳ, điểm GDNN&CTXH sẽ được cập nhật tối thiểu 1 lần, phục vụ cho đợt xét tốt nghiệp hàng năm. Tuy nhiên hiện nay, trong điều kiện có thể về nhân lực, phòng CTCT-HSSV thông thường sẽ công bố kết quả cập nhật thông tin thực hiện môn học GDNN&CTXH 2 tháng 1 lần."
+ utter_cau2:
+  - text: "SV có thể theo dõi thêm trên Website của phòng CTCT-HSSV, chuyên trang quản lý công tác xã hội để cập nhật thông tin các hoạt động đang triển khai cho SV đăng ký tham gia, tích lũy điểm GDNN&CTXH nhé."
+ utter_cau3:
+  - text: "Hoạt động của khoa và các đơn vị hoàn toàn có thể được cộng điểm nếu thực hiện đúng thủ tục, quy trình và nằm trong danh mục các hoạt động được cộng điểm GDNN&CTXH hiện hành"
+ utter_ask_name:
+  - text: "Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo HUFI nhưng em thích gọi bằng tên Tiếng Anh là HUFI Bot cho nó Tây!"
+ utter_unclear:
+  - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách. "
+ utter_stop:
+  - text: "Tạm biệt và hẹn gặp lại"
+ utter_cau4:
+  - text: "Phải làm lại thẻ theo quy trình tại phòng Kế hoạch tài chính và phòng Công tác chính trị học sinh-sinh viên."
+ utter_cau05:
+  - text: "Điểm trong học kỳ hè của năm học nào sẽ được tính vào điểm học kỳ 2 của năm học đó"
+ utter_cau06:
+  - text: "Xin giấy xác nhận sinh viên để đi thực tập hoặc tham quan tại công ty, nhà máy hay các doanh nghiệp bên ngoài em có thể đến phòng CTCT&HSSV (ô cửa số 2) để hướng dẫn kê khai thông tin làm giấy xác nhận nhé."
+ utter_cau07:
+  - text: "Những SV có tổng điểm tích lũy cao (theo từng khóa, VD  điểmTBTL làm khóa luận là >3.2) thì làm khóa luận, còn lại SV thực hiện ĐATN và học bổ sung"
+ utter_cau8:
+  - text: "Thực tập, nếu SV không tự chủ động liên hệ được địa điểm thực tập khoa sẽ phân công thực tập tại các điạ điểm khoa liên hệ."
+ utter_cau9:
+ - text: "Hè có mở lớp. Lịch mở các lớp ngắn hạn thường xuyên được thông báo trên Website: khoa http://foodtech.hufi.edu.vn. "
+ utter_cau10:
+  - text: "Trường hợp sinh viên bị bệnh có giấy xác nhận của bệnh viện sẽ được làm thủ tục hoãn thi theo quy định. Còn trường hợp có việc đột xuất thì sẽ không được giải quyết và xem như vắng thi "
+ utter_cau011:
+  - text: "Qui chế đào tạo tín chỉ không có tổ chức thi lại. Trường hợp rớt học phần nào phải đăng ký học lại học phần đó."
+ utter_cau12:
+   - text: " 'Tuần sinh hoạt công dân - HSSV' được tổ chức định kỳ hàng năm, bao gồm sinh hoạt đầu khóa, giữa khóa và cuối khóa. Đây là học phần bắt buộc thực hiện đối với sinh viên học tập tại trường. Đối với học phần 'Tuần sinh hoạt công dân - HSSV' tính từ năm học 2016-2017 trờ về trước, những sinh viên chưa hoàn thành đều đã bị xử lý theo Quy định về đánh giá kết quả rèn luyện. Vì vậy, nhà trường không tổ chức việc học bù, thi lại đối với học phần này đối với SV của những năm từ năm học 2016 - 2017 trở về trước."
+ utter_cau13:
+   - text: "Hiện Nhà trường có mở lớp Anh văn theo chương trình Toeic các cấp bậc, SV có nhu cầu vui lòng liên hệ tại Phòng D101 - Văn phòng Trung tâm Ngoại ngữ của Trường."
+ utter_cau14:
+  - text: "Có thể được,  liên hệ tại Phòng D101 - Văn phòng Trung tâm Ngoại ngữ của Trường để được hướng dẫn."
+ utter_cau015:
+  - text: "Khi đi nhận bằng Tốt nghiệp thì sinh viên mang theo chứng chỉ anh văn, chứng chỉ tin học, chứng nhận công tác xã hội để nhận bằng tốt nghiệp."
+ utter_cau016:
+  - text: "Phòng khảo thí và đảm bảo chất lượng giáo dục."
+ utter_cau17:
+  - text : "Một năm học xét học vụ 2 lần, thời gian và kế hoạch cụ thể xem trên cổng thông tin sinh viên"
+ utter_cau18:
+  - text : "Là hình thức cảnh báo sinh viên đang nằm trong trình trạng có thể bị buộc thôi học do kết quả học tập kém"
+ utter_cau19:
+  - text: "Đến phòng CTCT-HSSV:
+           1. HSSV xuất trình thẻ sinh viên và biên lai thu học phí của học kỳ đang học.
+           2. HSSV điền thông tin vào mẫu giấy đăng ký là HSSV đang theo học tại Trường.
+           3. Phòng CTCT-HSSV kiểm tra thông tin và hẹn ngày nhận lại giấy.
+           4. Cấp giấy chứng nhận cho HSSV."
+ utter_cau20:
+  - text: "Bị truy cứu trách nhiệm hình sự nhưng chưa có kết luận của cơ quan có thẩm quyền hoặc đã có kết luận của cơ quan có thẩm quyền nhưng không thuộc trường hợp bị xử lý kỷ luật ở mức bị buộc thôi học"
+ utter_cau21:
+  - text: "Sinh viên báo đầy đủ thông tin về cho bí thư"
+ utter_cau22:
+  - text: "Xét học bổng theo kỳ"
+ utter_cau23:
+  - text: "Sinh viên cần đăng ký đúng học phần mình muốn cải thiện điểm"
+ utter_cau24:
+  - text: "Rút học phần online tại cổng thông tin sinh viên http://sinhvien.hufi.edu.vn/ (trạng thái rút học phần)"
+ utter_cau25:
+  - text: "Phải biết rõ thời gian đăng ký, các học phần mở trong học kỳ, điều kiện đăng ký, chương trình đào tạo của ngành mình học và kết quả học tập"
+ utter_cau26:
+  - text: "1.   HSSV kiểm tra học phí cá nhân trên trang web
+           2.    HSSV liên hệ phòng KH-TC để kiểm tra, đối chiếu lại học phí nếu có thắc mắc."
+ utter_cau27:
+  - text: "1. Ký túc xá trường ĐH Công nghiệp Thực phẩm TP. HCM
+           - Địa chỉ: 102 Nguyễn Quý Anh, P. Tân Sơn Nhì, Q. Tân Phú
+           - ĐT: 028.38106015
+           - Sức chứa: 1000 chỗ
+           2. Nhà trọ sinh viên: Tân sinh viên có nhu cầu, có thể liên hệ đội tư vấn hỗ trợ nhà trọ của Ban Xung Kích tại sân trường"
+ utter_cau28:
+  - text: "1. CLB Tình Nguyện Xanh
+           https://www.facebook.com/TinhNguyenXanhHUFI/
+           2. CLB Kỹ Năng Lửa Xanh
+           https://www.facebook.com/nhomkynangluaxanh/
+           3. CLB Công Tác Xã Hội
+           https://www.facebook.com/CongTacXaHoiHUFI/
+           4. CLB HUFI DANCE
+           https://www.facebook.com/hufidance/
+           5. CLB HUFI GUITAR
+           https://www.facebook.com/groups/205958179517489/about/
+           6. CLB Tiếng Anh Global Citizen HUFI
+           https://www.facebook.com/gchufi/
+           7. CLB Thể Thao Điện Tử HUFI
+           https://www.facebook.com/groups/924653397608244/about/
+           8. CLB Võ Thuật HUFI
+           https://www.facebook.com/CLBVoThuatHUFI/
+           9. CLB Phát Triển Khoa Học SInh Viên HUFI
+           https://www.facebook.com/CLBPhatTrienKhoaHocSinhVienHUFI/
+           10. CLB Kỹ Năng Mềm
+           https://www.facebook.com/kynangmemhufi/
+           11. CLB Sách Và Hành Động HUFI
+           https://www.facebook.com/clbsachvahanhdonghufi/
+           12. CLB Tin học
+           https://www.facebook.com/ITTCClub/"
+ utter_cau29:
+  - text: "- Về nguyên tắc sinh viên là người tự khai báo các thông tin cá nhân trên Cổng thông tin sinh viên của nhà trường (http://sinhvien.hufi.edu.vn/) và chịu trách nhiệm về tính chính xác của các thông tin khai báo
+           - Hiện nay một số thông tin bị thiếu chính xác, sinh viên chờ thông báo của nhà trường để điều chỉnh lại các thông tin bị thiếu, sai sót,.."
+ utter_cau30:
+  - text: "Trường hợp không cần học Anh Văn đầu vào
+           -	Để được tư vấn về việc phân loại và xếp lớp anh văn đầu vào, tân sinh viên liên hệ tại trung tâm Ngoại ngữ- Phòng D.101, (Cạnh căn tin của trường) để được hướng dẫn."
+ utter_cau31:
+  - text: "Tân Sinh viên đăng nhập cổng thông tin sinh viên không được (báo lỗi) hoặc đăng nhập được nhưng thời khóa biểu trống (không có lịch) thì phải làm sao
+           - Tân sinh viên không cần lo lắng, vì đó là chuyện bình thường!
+           -Trường hợp đăng nhập không được hoặc bị báo lỗi trong quá trình đổi mật khẩu: Bạn có thể liên hệ sự trợ giúp tại phòng A.205 - Trung tâm Công nghệ Thông tin, sẽ được các thầy cô bộ phận kỹ thuật hỗ trợ 24/24!
+           -Trường hợp đã đăng nhập thành công nhưng thời khóa biểu chưa có dữ liệu:
+           + Nguyên tắc là khi nào trong thời khóa biểu có lịch thì sẽ đi học theo lịch đó, không có thì chờ cho có rồi mới đi!
+           + Không cần phải nôn nóng vì nhóm bạn khác đã bắt đầu tham gia tuần sinh hoạt công dân sinh viên đầu khóa, còn mình thì chưa!"
+ utter_cau32:
+  - text: "Sinh viên được khám, phát thuốc điều trị bệnh tại bộ phận Y tế của trường và được “khám chữa bệnh ngoại trú” hoặc “điều trị ngoại trú ” theo đúng tuyến quy định"
+ utter_cau33:
+  - text: "  Buổi chiều Tiết 1:	7h00 – 7h45
+          Tiết 2	7h45 – 8h30
+           Giải lao	8h30 – 8h35
+          Tiết  3	8h35 – 9h20
+           Giải lao	9h20 – 9h30
+          Tiết  4	9h30 – 10h15
+          Tiết   5	10h15 – 11h00
+          Tiết  6	11h00 – 11h45
+            Buổi chiều Tiết
+          Tiết   7	12h30 – 13h15
+          Tiết   8	13h15 – 14h00
+           Giải lao	14h00 – 14h05
+          Tiết   9	14h05 – 14h50
+           Giải lao	14h50 – 15h00
+          Tiết    10	15h00 – 15h45
+          Tiết  11	15h45 – 16h30
+          Tiết 12	16h30 – 17h15
+           Buổi tối Tiết
+          Tiết 13	18h00 – 18h45
+          Tiết  14	18h45 – 19h30
+           Giải lao	19h30 – 19h45
+          Tiết  15	19h45 – 20h30
+          Tiết  16	20h30 – 21h15"
+ utter_cau34:
+  - text: "Tiếp nhận và giải đáp thắc mắc về tình hình học tập, kết quả rèn luyện và các vấn đề liên quan HSSV trong quá trình học tập, rèn luyện tại Trường. Tiếp nhận các thông tin về hoạt động xã hội, an ninh, chính trị
+ Chăm sóc sức khỏe, khám bệnh, cấp thuốc và sơ cứu cấp cứu cho HSSV"
+ utter_cau35:
+  - text: "Học anh văn ngoại khóa/Ôn thi, thi chứng chỉ Quốc gia tiếng Anh trình độ A, B, C / Test lại trình độ tiếng Anh / Chuyển đổi ngôn ngữ đầu ra"
+ utter_cau36:
+  - text: "Đối với hệ đại học chính quy và vừa học vừa làm: 120TC
+           Đối với chương trình liên thông đại học đúng ngành: 45TC.
+           Đối với chương trình liên thông đại học chéo ngành: 51-53TC
+           Đối với chương trình liên thông đại học từ hệ nghề: 55TC
+           Đối với chương trình đại học văn bằng thứ hai cùng khối ngành: 60TC
+           Đối với chương trình đại học văn bằng thứ hai khác khối ngành: 75TC"
+ utter_cau37:
+  - text: "Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 30 tiết thực hành, thí nghiệm hoặc thảo luận; 60 giờ thực tập tại cơ sở; 45 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt nghiệp."
+ utter_cau38:
+  - text: "Học phần A được gọi là tương đương với học phần B khi hai học phần này có nội dung tương đồng (theo các tiêu chí của khoa và bộ môn xác định). Về số tín chỉ, học phần tương đương có thể khác nhau. Trường hợp học phần tương đương có số tín chỉ ít hơn học phần cũ thì người học phải học thêm các học phần khác để đảm bảo tích lũy đủ số TC theo quy định của CTĐT khóa – ngành."
+ utter_cau39:
+  - text: "Học phần cũ không còn tổ chức giảng dạy nữal
+           Học phần vẫn còn trong CTĐT nhưng không được mở vào học kỳ cuối cùng đối với người học được phép học trả nợ (xác định cá biệt đối với từng người học); hoặc,
+           Học phần ở bậc cao hơn có thể thay thế cho học phần dành riêng cho bậc học thấp hơn; hoặc,
+           Khi người học học học phần có nội dung bao gồm nhiều học phần có thể chỉ định thay thế cho các học phần tương ứng.
+           Học phần thay thế nhìn chung phải có thời lượng tương đương nhưng có thể có nội dung khác với học phần được thay thế. Trường hợp học phần thay thế có số tín chỉ ít hơn học phần cũ thì người học phải học thêm các học phần khác để đảm bảo tích lũy đủ số TC theo quy định của CTĐT khóa – ngành."
+ utter_cau40:
+  - text: "Xếp hạng tốt nghiệp được xác định theo ĐTBTL của toàn khoá học như sau:
+           Loại xuất sắc đạt ĐTBTL  ≥ 3,60;
+           Loại giỏi đạt ĐTBTL từ 3,20 đến 3,59;
+           Loại khá đạt ĐTBTL từ 2,5 đến 3,19;
+           Loại trung bình đạt ĐTBTL từ 2,00 đến 2,49.
+           Người học có kết quả học tập toàn khoá loại xuất sắc và giỏi sẽ bị giảm đi một mức nếu rơi vào một trong các trường hợp sau:
+           Có số TC của các học phần phải học lại vượt quá 5% tổng số TC toàn khóa;
+           Đã bị kỷ luật trong thời gian học từ mức cảnh cáo ở cấp trường trở lên."
+actions:
+# templates (as they are reply actions),
+# also custom actions if any
+ - utter_greet
+ - utter_unclear
+ - utter_thank
+ - utter_ask_name
+ - utter_cau1
+ - utter_cau2
+ - utter_cau3
+ - utter_stop
+ - utter_cau4
+ - utter_cau05
+ - utter_cau06
+ - utter_cau07
+ - utter_cau8
+ - utter_cau9
+ - utter_cau10
+ - utter_cau011
+ - utter_cau12
+ - utter_cau13
+ - utter_cau14
+ - utter_cau015
+ - utter_cau016
+ - utter_cau17
+ - utter_cau18
+ - utter_cau19
+ - utter_cau20
+ - utter_cau21
+ - utter_cau22
+ - utter_cau23
+ - utter_cau24
+ - utter_cau25
+ - utter_cau26
+ - utter_cau27
+ - utter_cau28
+ - utter_cau29
+ - utter_cau30
+ - utter_cau31
+ - utter_cau32
+ - utter_cau33
+ - utter_cau34
+ - utter_cau35
+ - utter_cau36
+ - utter_cau37
+ - utter_cau38
+ - utter_cau39
+ - utter_cau40
